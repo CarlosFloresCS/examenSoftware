@@ -1,0 +1,15 @@
+
+Para cumplir con el requisito de limitar las transferencias a un máximo de 
+200 soles al día, debes realizar los siguientes cambios:
+
+- En la clase Cuenta, agrega un nuevo atributo para llevar 
+un seguimiento del monto total transferido en un día.
+- Modifica el método pagar en la clase Cuenta para verificar si la
+ transferencia supera el límite diario antes de procesarla.
+- Introduce nuevos casos de prueba que cubran diferentes situaciones, 
+como transferencias que superan el límite diario y transferencias dentro del límite.
+
+El riesgo de "romper" lo que ya funciona está presente al introducir nuevas lógicas. 
+Realiza pruebas exhaustivas para asegurar que las operaciones anteriores 
+sigan funcionando correctamente y que las nuevas validaciones no afecten 
+negativamente a las transferencias normales.
